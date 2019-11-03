@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daniel-kacou-page</title>
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/nav.css">
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+
+
+    <nav class=" container-fluid navbar navbar-inverse">
+        <div class="container">
+            <div class="espace">
+                <div class="navbar-header">
+
+                    <a class="navbar-brand" href="index.html">D-kacou</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li ><a href="apropos.html">Voir-Cv</a></li>
+                    <li class="active"><a href="contact.html">contact</a></li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="starter-template">
+            <form action="contact.php" method="POST" class="sms" >
+
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" name="name" class="form-control" id="name"
+                                placeholder="entrer le nom" required autofocus>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6">
+                        <div class="form-group">
+                            <label for="mail">Prenom</label>
+                            <input type="text" name="name" class="form-control" 
+                                required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="form-group">
+                            <label for="name">Sujet</label>
+                            <input type="text" name="sujet" class="form-control" 
+                                placeholder="entrer le nom" required autofocus>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="form-group">
+                            <label for="mail">AGE</label>
+                             <input type="text" class="form-control" id="ag" >
+
+                        </div>
+                    </div>
+                    
+            <button class="btn btn-danger col-sm-4 col-md-1" onclick="document.getElementById('ag').style.display='none';" >HIDE </button>
+            <button class="btn btn-danger col-sm-4 col-md-1" onclick="document.getElementById('ag').style.display='block';"> SHOW</button>
+
+
+                      
+                </div>
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="message">votre message</label>
+                            <textarea name="message" id="message" class="form-control"
+                                placeholder="Entrer le message" required></textarea>
+                        </div>
+                        <button type="submit" name="submit"  class="btn btn-primary">Envoyer</button>
+                    </div>
+                
+            </form>
+        </div>
+    </div>
+        
+    <footer class="container-fluid foot">
+            <div class="container">
+                <div class="row">
+                    <p class="col-sm-12 col-md-8 col-lg-8">
+    
+                        joingnez nous sur <a href="contact.html" class="mail">danielkacou0@gmail.com</a>
+                    </p>
+    
+                </div>
+            </div>
+        </footer>
+    
+    
+
+</body>
+</html>
+

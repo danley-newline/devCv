@@ -1,0 +1,126 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #e4dede;
+}
+
+a ,a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: inherit;
+}
+
+.container-fluid{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*IMAGE PRINCIPALE*/
+
+
+.tac{
+    margin-bottom: 6%;
+    height: 10px;
+    background-color: #570a0a;
+    width: 70%;
+}
+.dev{
+    margin-bottom: 10%;
+    background-color: #1d2d64;
+}
+
+
+
+.im_prin{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+
+.place{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: #017074;
+    color: black;
+
+}
+.place0{
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    color: black;
+    margin-top: 2%;
+    background-color: #017074;
+}
+
+
+.aff img{
+    width: 20%;
+    margin-right: 20%;
+    float: right;
+    
+}
+
+.im_prin h1{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 1px 0px black;
+
+}
+
+.foot{
+    background-color:#080231;
+    height: 150px;
+    color: white;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.foot p {
+    font-weight: bold;
+    margin-top: 5%;
+    color: white;
+}
+.foot .mail{
+    color: #f35c20;
+    margin-left: 20px;
+}
+
+/*PAGE INF*/
+
+
+
+/*FORM*/
+
+
+/*FORMBLOG*/
+.sms{
+    margin-top: 10%;
+}
+
+.ins_fin{
+    margin: auto;
+    width: 100%;
+    margin-top: 15%;
+    height: 100px;
+    padding: 2%;
+    text-align: center;
+    color: aliceblue;
+        
+}
+.ins_fin h1{
+    text-shadow: 2px 2px 0px rgb(11, 12, 11);
+    font-weight: bold;
+    color: #53230e;
+    text-align: center;
+    margin: 4%;
+    font-size:40px;
+}
+
+.btn-danger{
+    margin-top: 2%;
+}
